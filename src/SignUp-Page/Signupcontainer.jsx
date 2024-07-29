@@ -142,7 +142,7 @@ function Signupcontainer() {
             redirect: "follow"
         };
 
-        fetch("http://localhost:3434/song/sign-up", requestOptions)
+        fetch("https://backend-cyan-five.vercel.app/song/sign-up", requestOptions)
             .then((response) => response.json())
             .then((result) => console.log(result))
             .catch((error) => console.error(error));

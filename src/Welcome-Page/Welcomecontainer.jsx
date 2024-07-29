@@ -34,7 +34,7 @@ function Welcomecontainer({ setTab }) {
                 </div>
                 <br />
                 <p>Dont't Have An Account ?</p>
-                <div onClick={handleClick2}>Sign Up</div>
+                <div onClick={handleClick2}><button>Sign Up</button></div>
             </div>
         </div>
 
